@@ -1,4 +1,4 @@
-const homeLoad = function(){
+function homeLoad(){
 
     const review = document.createElement('p')
     review.classList.add('review')

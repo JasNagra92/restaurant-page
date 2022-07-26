@@ -1,4 +1,4 @@
-const pageload = function(){
+function pageload(){
     const title = document.createElement("h1");
     const content = document.getElementById("content");
     title.textContent = "Nagra Smoke House";

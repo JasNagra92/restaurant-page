@@ -5,6 +5,5 @@ import './style.css';
 
 pageload();
 homeLoad();
-// homeLoad()
-// const menuBtn = document.querySelector("#menu");
-// menuBtn.addEventListener('click',menuload())
+const menuBtn = document.querySelector("#menu");
+menuBtn.addEventListener('click',menuload)
