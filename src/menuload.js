@@ -42,12 +42,20 @@ primeRib.classList.add('menuitem')
 primeRibPrice.classList.add('.menutiem')
 
 const brisket = document.createElement('div')
-brisket.classList.add('menuitem')
 brisket.id = "brisket"
+const brisketHeading = document.createElement('h4');
+const brisketPrice = document.createElement('h4');
+brisketHeading.innerHTML = "World famous Nagra Brisket, smoked 14 hours";
+brisketPrice.innerHTML = "$100.00"
+brisket.appendChild(brisketHeading)
+brisket.appendChild(brisketPrice)
+brisket.classList.add('menuitem')
+brisketPrice.classList.add('.menutiem')
 
 removeMainContent()
 const mainContent = document.querySelector('#mainContent')
 mainContent.classList.replace('mainContent','mainContentMenu')
+mainContent.classList.replace('contactContent', 'mainContentMenu')
 
 mainContent.appendChild(ribs)
 mainContent.appendChild(pork)
