@@ -6,14 +6,22 @@ const pageload = function(){
     console.log(content)
     title.textContent = "Nagra Smoke House";
     content.appendChild(title);
-    
+
+    const mainContent = document.createElement('div');
+    mainContent.classList.add("mainContent");
+    content.appendChild(mainContent)
+
+    const imgContainer = document.createElement('div');
+    imgContainer.classList.add("imgContainer")
+    mainContent.appendChild(imgContainer)
+
     const myIcon = new Image();
     myIcon.src = Icon;
-    content.appendChild(myIcon);
+    imgContainer.appendChild(myIcon);
 
     const intro = document.createElement('p')
     intro.textContent = "The best smoked shalmon in all of Surrey BC"
-    content.appendChild(intro)
+    mainContent.appendChild(intro)
     
 }
 

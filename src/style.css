@@ -1,6 +1,28 @@
-h1{
-    color:red
+body{
+    display:flex;
+    justify-content: center;
 }
 #content{
-    display:grid
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 15vh 10vh 60vh;
+    max-width: 80vw;
+}
+
+h1{
+    grid-area: 1/1/2/3;
+    text-align: center;
+}
+.mainContent{
+    grid-area: 3/1/4/3;
+    display: flex;
+}
+img{
+    width: 100%;
+}
+.imgContainer{
+    flex:1;
+}
+p{
+    flex: 1;
 }
