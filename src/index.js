@@ -1,5 +1,8 @@
-import {pageload, homeLoad} from "./homeload";
+import {pageload} from "./pageload"
+import {homeLoad} from "./homeload";
+import {menuload} from "./menuload"
 import './style.css';
 
-pageload()
+pageload(),
 homeLoad()
+menuBtn.addEventlistener('click',menuload())
