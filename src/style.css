@@ -9,6 +9,7 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 15vh 10vh 75vh;
   max-width: 80vw;
+  min-width: 800px;
   background-image: url(./frontpage.jpg);
   background-size: cover;
 }
@@ -66,7 +67,21 @@ img {
 }
 .menuitem{
     border: 1px solid black;
-    width: 200px;
+    width: 30vw;
     height: 100px;
     border-radius: 10px;
+    transition: transform .2s ease-in-out, background-color 1s ease-in-out;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.menuitem:hover{
+    transform: scale(1.2);
+    background-color: lightgreen;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+#brisket{
+    width:400px
 }

@@ -5,6 +5,7 @@ function pageload(){
     content.appendChild(title);
     const mainContent = document.createElement('div');
     mainContent.classList.add("mainContent");
+    mainContent.id = "mainContent"
     content.appendChild(mainContent)
 
     const navBar = document.createElement('div')

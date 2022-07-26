@@ -3,7 +3,7 @@ function homeLoad(){
     const review = document.createElement('p')
     review.classList.add('review')
     review.innerHTML = "<em>I had some of the brisket at a kids Birthday party and it was unreal</em> <br> Mr. Ho"
-    const mainContent = document.querySelector(".mainContent")
+    const mainContent = document.querySelector("#mainContent")
     mainContent.appendChild(review)
 
     const hours = document.createElement('p')
