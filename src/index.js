@@ -1,4 +1,5 @@
-import {pageload} from "./pageload";
+import {pageload, homeLoad} from "./pageload";
 import './style.css';
 
 pageload()
+homeLoad()

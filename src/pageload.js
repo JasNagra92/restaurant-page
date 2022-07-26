@@ -11,7 +11,8 @@ const pageload = function(){
     const navBar = document.createElement('div')
     navBar.classList.add('nav')
     content.appendChild(navBar)
-
+}
+const homeLoad = function(){
     const homeBtn = document.createElement('button')
     navBar.appendChild(homeBtn)
     homeBtn.innerHTML = "HOME"
@@ -35,5 +36,4 @@ const pageload = function(){
     hours.innerHTML = "Monday - Friday <br> 9:00 AM - 5:00 PM <br> Saturday/Sunday <br> Closed"
     mainContent.appendChild(hours)
 }
-
-export{pageload}
+export{pageload, homeLoad}
