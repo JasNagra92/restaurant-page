@@ -1,8 +1,10 @@
-import {pageload} from "./pageload"
+import {pageload} from "./pageload";
 import {homeLoad} from "./homeload";
-import {menuload} from "./menuload"
+import {menuload} from "./menuload";
 import './style.css';
 
-pageload(),
-homeLoad()
-menuBtn.addEventlistener('click',menuload())
+pageload();
+homeLoad();
+// homeLoad()
+// const menuBtn = document.querySelector("#menu");
+// menuBtn.addEventListener('click',menuload())
